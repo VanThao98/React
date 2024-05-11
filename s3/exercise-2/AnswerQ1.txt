@@ -1,0 +1,29 @@
+Q1 – Research on internet and list down the main differences between HTML and JSX syntax
+1. cú pháp tag
++ HTML: Sử dụng cặp thẻ mở <tag> và thẻ đóng </tag> để bao bọc nội dung.
++ JSX: Sử dụng cặp thẻ mở và đóng giống như trong HTML, nhưng trong trường hợp các thành phần React, 
+có thể sử dụng cú pháp tổ hợp {} để nhúng biểu thức JavaScript hoặc giá trị biến vào bên trong thẻ.
+
+2. dấu nháy kép
++ HTML: Sử dụng dấu nháy kép " để bao quanh giá trị của thuộc tính.
++ SX: Cũng sử dụng dấu nháy kép " cho giá trị của thuộc tính nhưng có thể sử dụng cả dấu nháy đơn ' 
+hoặc không cần dấu nháy cho giá trị thuộc tính nếu giá trị đó là một biến.
+
+3. Css và inline style
++ HTML: Sử dụng thuộc tính style với giá trị là một chuỗi CSS để áp dụng kiểu trực tiếp vào phần tử.
++ JSX: Tương tự HTML nhưng trong JSX, giá trị của thuộc tính style là một object JavaScript
+ chứa các cặp key-value tương ứng với các thuộc tính CSS. Ví dụ: style={{ color: 'red', fontSize: '16px' }}.
+
+4. Class và className
++ HTML: Sử dụng thuộc tính class để áp dụng các lớp CSS cho phần tử.
++ JSX: Do class là một từ khóa trong JavaScript nên trong JSX, 
+sử dụng thuộc tính className để thêm các lớp CSS vào phần tử.
+
+5. chú thích
++ HTML: Sử dụng cú pháp <!-- comment --> để chú thích trong mã HTML.
++ JSX: Sử dụng cú pháp {/* comment */} để chú thích trong mã JSX.
+
+6. Render logic:
++ HTML: Thường chỉ chứa cấu trúc giao diện tĩnh.
++ JSX: Được sử dụng trong React để xây dựng các thành phần và giao diện động,
+ có thể chứa biểu thức JavaScript, điều kiện và vòng lặp.
